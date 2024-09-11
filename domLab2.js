@@ -1,6 +1,6 @@
 
 let cube = document.getElementById('box');
-let container = document.body; // أو أي عنصر آخر يحتوي على المربع
+let container = document.body; 
 
 function moveCube() {
   let newLeft = Math.random() * container.clientWidth;
